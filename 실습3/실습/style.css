@@ -135,14 +135,23 @@ Section
     background-color: #93572e;
     border-bottom:10px solid #4b260a;
     border-radius:20px;
-    padding:20px;
+    /* padding:20px; */
+    overflow: hidden;
+}
+
+.grid li .container:before {
+    content:'';
+    display:block;
+    height: 50px;
+    background-image: url('images/ac-top.png');
 }
 
 .grid li .container h2 {
     color:#fff;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .grid li .container p {
     color:rgba(255,255,255,0.5);
+    margin: 20px;
 }
